@@ -1,0 +1,21 @@
+{
+  "name": "extract-chinese",
+  "version": "1.0.0",
+  "description": "extract chinese in vue project",
+  "main": "index.js",
+  "scripts": {
+    "i18n": "node index.js"
+  },
+  "author": "hejie13",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@babel/generator": "^7.22.9",
+    "@babel/parser": "^7.22.7",
+    "@babel/traverse": "^7.22.8",
+    "@vue/compiler-sfc": "^3.3.4",
+    "glob": "^10.3.3",
+    "moment": "^2.29.4",
+    "xlsx": "^0.18.5"
+  }
+}
